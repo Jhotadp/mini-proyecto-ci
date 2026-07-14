@@ -91,6 +91,47 @@ I
 
 ---
 
+# Endpoints REST
+
+## Obtener productos
+
+Método:
+GET
+
+Ruta:
+`/products`
+
+Descripción:
+Retorna la lista de productos registrados.
+
+---
+
+## Crear producto
+
+Método:
+POST
+
+Ruta:
+`/products`
+
+Descripción:
+Permite registrar un nuevo producto.
+
+---
+
+## Eliminar producto
+
+Método:
+DELETE
+
+Ruta:
+`/products/:id`
+
+Descripción:
+Elimina un producto mediante su identificador.
+
+---
+
 # Funcionalidades Implementadas
 
 El servicio REST permite:
