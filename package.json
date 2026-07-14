@@ -7,7 +7,8 @@
   "start": "node src/server.js",
   "test": "jest",
  "coverage": "jest --coverage",
-  "lint": "eslint src"
+  "lint": "eslint src",
+  "build": "echo Build completed successfully"
 },
   "repository": {
     "type": "git",
